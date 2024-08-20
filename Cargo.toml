@@ -1,0 +1,19 @@
+[package]
+name = "jwt-example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+base64 = "0.22.1"
+sha2 = "0.10"
+hmac = "0.12.1"
+hex = "0.4"
+
+[[bin]]
+name = "server"
+path = "src/server.rs"
+
+[[bin]]
+name = "client"
+path = "src/client.rs"
